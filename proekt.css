@@ -1,0 +1,28 @@
+body {
+    background-color: #696969;
+    
+}
+#left {position: relative; float:left; left: 0;  width: 50%; }
+#right {position: relative; float: left; right: 0; width: 50%; }
+* { margin: 0; padding: 0; }
+p { padding: 10px; }
+
+#head {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#bottom {
+    position: relative;
+    text-align: center;
+}
+#content {
+    background-color: #808080;
+
+}
+
+#content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
