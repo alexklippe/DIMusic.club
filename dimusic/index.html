@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <link href="project.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />
+    <meta name="description" content="Оnline Radio" />
+  </head>
+
+<body >
+        <div id="head">
+            <h1>Digital International Music Club station</h1>
+            <hr width="500px">
+        </div>
+        <div id="content"> 
+          
+            <center >
+              <br>
+              <!--<h2 class="StationName">International pop music station</h2>-->
+              <!-- START OF THE RADIO HTML5 PLAYER EMBEDDING -->
+              <img src="006_pop.jpg" width="208px" height="130px" class="logos" style="border-color: rgb(45, 53, 167)" onclick="document.getElementById('audiopop').play();"><br>
+              <span class="StationName" >Euro Pop</span><br>
+              <audio controls="controls" class="audio" preload="none" id='audiopop'>
+                      
+                  <source src="http://dimusic.club:8000/DIM?type=.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.</audio>
+              <!-- END OF THE RADIO HTML5 PLAYER EMBEDDING -->
+              <br>
+              <hr width="500px">
+              <br>
+              <!--<h2>Trance music station</h2> -->
+              <img src="007_trance.jpg" width="208px" height="130px" class="logos" style="border-color: rgb(167, 45, 45)" onclick="document.getElementById('tranceaudio').play();"><br>
+              <span class="StationName">Trance Music</span><br>
+              <!-- START OF THE RADIO HTML5 PLAYER EMBEDDING -->
+              <audio controls="controls" preload="metadata" id="tranceaudio">
+                  <source src="http://dimusic.club:8000/DIM2_48?type=.mp3" type="application/ogg" >
+                  Your browser does not support the audio element.</audio>
+              <!-- END OF THE RADIO HTML5 PLAYER EMBEDDING -->
+             
+          </center>
+        </div>
+        <!-- <div class="row">
+            <div class="column" >
+               
+            </div>
+            <div class="column">
+             
+            </div>
+        </div>
+       -->
+
+
+            <!--
+                <audio id="track" preload="false" src=""></audio>
+                <div class="containerMusicPlayer">
+                  <div class="title" onclick="toogleSize();">
+                    <h1>HTML5 Online Radio Player</h1>
+                  </div>
+                  <div class="radioInfo">
+                    <div style="padding:10px 0 5px 0;">
+                      <img id="radioLogo" width=200px height=120px src="">
+                    </div>
+                    <div style="padding:5px;">
+                      <img id="radioCountry" width=200px height=120px src="">
+                    </div>
+                  </div>
+                
+                  <div class="musicControl">
+                    <div class="ctlbtn">
+                      <button id="btnPlay" class="btn" onclick="radioToogle();"><i class="fa fa-play" aria-hidden="true"></i></button>
+                      <button class="btn" onclick="radioShuffle();"><i class="fa fa-cube" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="ctlvol">
+                      <input id="vol" type=range min=0 max=1 step=0.1 onchange="radioVolume();">
+                    </div>
+                  </div>
+                </div>
+            -->
+      
+
+
+       
+        <!--end content-->
+        <BR />
+        <div id="bottom">
+            Confidential Policy | FB | Instagramm
+<br>
+@2019 dimusic@tuta.io
+        </div>
+    </body>
+
+</html>

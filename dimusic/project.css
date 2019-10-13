@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
+body {
+    /*filter: alpha(opacity=70, style=0); background-color: rgb(8, 10, 8);;*/
+    background: url(back.jpeg) repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+    font-family: 'Titillium Web', sans-serif;
+   
+    font-family: 'Chewy', cursive;
+    font-family: 'Alfa Slab One';
+
+}
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(0) contrast(70%) invert(12%);
+  width: 200px;
+  height: 25px;
+ 
+}
+
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+  text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .center {
+      width: 100%;
+    text-align: center;
+  }
+  .logos{
+      border:3px solid #ffffff;
+      border-radius: 50%;
+      padding: 3px;
+
+  }
+
+#head {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+   color: #ffffff;
+}
+.StationName {
+    
+  background: -webkit-linear-gradient( #08aa10, rgb(130, 123, 163));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px rgb(0, 0, 0));
+}
+#bottom {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+#content {
+  /*  background-color: #0f0e0e;*/
+
+}
+
+#content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+hr {
+  border: 1px dotted #2fb108;
+  border-style: none none dotted; 
+  color: #fff; 
+  background-color: #fff;
+}
+h1 {
+
+  color:  #2fb108; 
+  font-weight: lighter;
+ 
+
+  font-size: 28px;
+  background: -webkit-linear-gradient( #08aa10, rgb(130, 123, 163));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px rgb(0, 0, 0));
+}
+
+
+/*👇 for preload play/pause svg 😎*/
+body:after {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	z-index: -1;
+	content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/play.svg)
+		url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/163884/pause.svg);
+}
