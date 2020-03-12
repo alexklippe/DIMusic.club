@@ -1,0 +1,41 @@
+body {
+
+}
+
+.StationName {
+color:#adff2f;
+/*  background: -webkit-linear-gradient( #08aa10, rgb(130, 123, 163));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px rgb(0, 0, 0));*/
+  border:3px solid #adff2f;
+  border-radius: 20%;
+  padding: 3px;
+  font-size: 40px;
+}
+#head {
+    width: 100%;
+
+    text-align: center;
+   color: #ffffff;
+}
+.logos{
+    border:20px none #adff2f;
+
+
+     width:100%;
+}
+
+h1 {
+  color:  #adff2f;
+  font-weight: lighter;
+  font-size: 40px;
+
+}
+hr {
+  border: 1px dotted #adff2f;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff;
+
+}
